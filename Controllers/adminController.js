@@ -86,7 +86,7 @@ module.exports = {
     });
   },
   //
-  //
+
   mangeUser: async (req, res) => {
     const id = req.params.id;
     const updateData=req.body
