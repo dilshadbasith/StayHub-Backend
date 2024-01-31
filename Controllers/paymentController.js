@@ -3,7 +3,7 @@ const User = require('../Models/userSchema');
 
 const order = async (req, res) => {
   try {
-    // console.log(req.body);
+  
     const userId = req.body?.currentUser?._id;
     const user = await User.findById(userId);
     
